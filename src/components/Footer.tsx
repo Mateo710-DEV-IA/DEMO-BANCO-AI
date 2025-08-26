@@ -104,7 +104,7 @@ const Footer = () => {
               <a href="#" className="hover:text-white transition-colors">Tarifas</a>
             </div>
             <div className="text-sm text-gray-400">
-              © 2025 Cajasiete. Todos los derechos reservados.
+              © 2025 Banco Santander. Todos los derechos reservados.
             </div>
           </div>
         </div>
