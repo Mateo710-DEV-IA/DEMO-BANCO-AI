@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Comprometidos con
-            <span className="block text-yellow-400">Canarias</span>
+            <span className="block text-white-400">Canarias</span>
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             Somos la entidad financiera de origen canario con mayor implantación en las islas. 
@@ -20,7 +20,7 @@ const AboutSection = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="bg-yellow-400 text-blue-900 p-4 rounded-xl inline-flex mb-4">
+            <div className="bg-white text-red-500 p-4 rounded-xl inline-flex mb-4">
               <Building2 className="w-8 h-8" />
             </div>
             <div className="text-3xl font-bold mb-2">180+</div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
           </div>
           
           <div className="text-center">
-            <div className="bg-yellow-400 text-blue-900 p-4 rounded-xl inline-flex mb-4">
+            <div className="bg-white text-red-500 p-4 rounded-xl inline-flex mb-4">
               <Users2 className="w-8 h-8" />
             </div>
             <div className="text-3xl font-bold mb-2">500K+</div>
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </div>
           
           <div className="text-center">
-            <div className="bg-yellow-400 text-blue-900 p-4 rounded-xl inline-flex mb-4">
+            <div className="bg-white text-red-500 p-4 rounded-xl inline-flex mb-4">
               <Award className="w-8 h-8" />
             </div>
             <div className="text-3xl font-bold mb-2">75+</div>
@@ -44,7 +44,7 @@ const AboutSection = () => {
           </div>
           
           <div className="text-center">
-            <div className="bg-yellow-400 text-blue-900 p-4 rounded-xl inline-flex mb-4">
+            <div className="bg-white text-red-500 p-4 rounded-xl inline-flex mb-4">
               <Leaf className="w-8 h-8" />
             </div>
             <div className="text-3xl font-bold mb-2">100%</div>
@@ -61,7 +61,7 @@ const AboutSection = () => {
                 culturales, educativos y medioambientales que contribuyen al 
                 desarrollo sostenible de las Islas Canarias.
               </p>
-              <button className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors">
+              <button className="bg-white text-red-500 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Conoce nuestros proyectos
               </button>
             </div>

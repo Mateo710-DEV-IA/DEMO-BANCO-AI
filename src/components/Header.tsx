@@ -45,27 +45,27 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
+                <button className="text-gray-700 hover:text-red-700 font-medium transition-colors">
                   Particulares
                 </button>
               </div>
               <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
+                <button className="text-gray-700 hover:text-red-700 font-medium transition-colors">
                   Empresas
                 </button>
               </div>
               <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
+                <button className="text-gray-700 hover:text-red-700 font-medium transition-colors">
                   Productos
                 </button>
               </div>
               <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
+                <button className="text-gray-700 hover:text-red-700 font-medium transition-colors">
                   Obra Social
                 </button>
               </div>
               <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
+                <button className="text-gray-700 hover:text-red-700 font-medium transition-colors">
                   Quiénes Somos
                 </button>
               </div>
@@ -77,7 +77,7 @@ const Header = () => {
                 <User className="w-4 h-4" />
                 <span>Acceso Clientes</span>
               </button>
-              <button className="px-6 py-2 bg-red-700 text-white rounded-lg hover:bg-blue-800 transition-colors">
+              <button className="px-6 py-2 bg-red-700 text-white rounded-lg hover:bg-white hover:text-red-700 transition-colors">
                 Hazte Cliente
               </button>
             </div>

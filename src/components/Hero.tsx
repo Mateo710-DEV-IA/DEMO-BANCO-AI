@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 Tu banco de
-                <span className="block text-yellow-400">confianza</span>
-                en Canarias
+                confianza
+                en toda Europa.
               </h1>
               <p className="text-xl lg:text-2xl text-blue-100 leading-relaxed">
                 Más de 75 años junto a las familias y empresas canarias. 
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center space-x-2 px-8 py-4 bg-yellow-400 text-white-900 font-semibold rounded-lg hover:bg-yellow-300 transition-colors">
+              <button className="flex items-center justify-center space-x-2 px-8 py-4 bg-white text-red-500 font-semibold rounded-lg hover:bg-yellow-300 transition-colors">
                 <span>Hazte Cliente</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
@@ -33,15 +33,15 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <Shield className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
+                <Shield className="w-8 h-8 mx-auto mb-2 text-white" />
                 <p className="text-sm">Seguridad</p>
               </div>
               <div className="text-center">
-                <Users className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
+                <Users className="w-8 h-8 mx-auto mb-2 text-white" />
                 <p className="text-sm">Cercanía</p>
               </div>
               <div className="text-center">
-                <Heart className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
+                <Heart className="w-8 h-8 mx-auto mb-2 text-white" />
                 <p className="text-sm">Compromiso</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Hero = () => {
               alt="Familia feliz"
               className="rounded-2xl shadow-2xl w-full h-auto object-cover"
             />
-            <div className="absolute bg-yellow-400 text-white-900 p-4 rounded-lg shadow-lg
+            <div className="absolute bg-white text-red-500 p-4 rounded-lg shadow-lg
                             -bottom-4 -left-4
                             sm:p-6 sm:rounded-xl sm:-bottom-6 sm:-left-6">
               <div className="text-lg sm:text-2xl font-bold">75+</div>

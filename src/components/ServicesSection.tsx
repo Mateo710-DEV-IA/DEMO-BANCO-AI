@@ -9,7 +9,7 @@ const ServicesSection = () => {
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Servicios que
-              <span className="block text-red-700">te facilitan la vida</span>
+              <span className="block text-red-500">te facilitan la vida</span>
             </h2>
             
             <div className="space-y-8">
