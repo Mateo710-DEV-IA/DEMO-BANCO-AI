@@ -22,11 +22,11 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center space-x-2 px-8 py-4 bg-white text-red-500 font-semibold rounded-lg hover:bg-yellow-300 transition-colors">
+              <button className="flex items-center justify-center space-x-2 px-8 py-4 bg-white text-red-500 font-semibold rounded-lg hover:bg-red-500 hover:text-white transition-colors">
                 <span>Hazte Cliente</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
-              <button className="flex items-center justify-center space-x-2 px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-colors">
+              <button className="flex items-center justify-center space-x-2 px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-red-500 transition-colors">
                 <span>Nuestros Productos</span>
               </button>
             </div>
